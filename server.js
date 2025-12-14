@@ -72,7 +72,7 @@ app.use((req, res, next) => {
 // Example API route
 app.get("/api/hello", (req, res) => {
   activeUsers.set(Math.floor(Math.random() * 100)); // demo gauge value
-  res.json({ message: "Hello, JMet " });
+  res.json({ message: "Hello, JMet" });
 });
 
 // Metrics endpoint
